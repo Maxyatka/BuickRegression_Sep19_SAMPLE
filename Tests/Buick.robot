@@ -1,5 +1,5 @@
 *** Settings ***
-Documentation  This is a project to test some functianality of Buick website
+Documentation  This is a sample work project that test some functianality of Buick website
 Resource  ../Resources/BuickApp.robot
 Resource  ../Resources/Common.robot
 
