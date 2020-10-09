@@ -8,7 +8,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${ENVISION_HEADER_TEXT} =  2020 BUICK ENVISION
-${ENVISION_MAIN_HEADER} =  css=body > div:nth-child(4) > div > div.q-margin-base.q-headline > div > div > h1
+${ENVISION_MAIN_HEADER} =  css=body > div:nth-child(5) > div > div.q-margin-base.q-headline > div > div > h1
 ${COOKIES_CLOSE_BUTTON} =  xpath=/html/body/div[31]/div[2]/div/div/div/div[3]
 ${VIDEO_IFRAME_DIV_CLASS} =  js-visibility none-margin
 ${VIDEO_COLORS_IFRAME} =  xpath=/html/body/div[10]/div/div[3]/div/iframe

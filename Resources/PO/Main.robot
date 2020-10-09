@@ -8,7 +8,7 @@ ${VEHICLES_DROPDOWN} =  xpath=/html/body/div[2]/div[2]/nav/section/div/ul[1]/li[
 ${ENCORE_LINK} =  xpath=/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div[2]/div[1]
 ${ENCOREGX_LINK} =  xpath=/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div[2]/div[2]
 ${ENVISION_LINK} =  xpath=/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div[2]/div[7]
-${ENCLAVE_LINK} =  xpath=/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div[2]/div[12]
+${ENCLAVE_LINK} =  xpath=/html/body/div[2]/div[3]/div/div/div[2]/div/div/div/div[2]/div[13]
 
 *** Keywords ***
 Open Main Page

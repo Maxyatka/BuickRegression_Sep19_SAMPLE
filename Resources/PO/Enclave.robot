@@ -8,7 +8,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${ENCLAVE_HEADER_TEXT} =  2020 ENCLAVE
-${ENCLAVE_MAIN_HEADER} =  css=body > div:nth-child(4) > div > div.q-margin-base.q-headline > div > div > h1
+${ENCLAVE_MAIN_HEADER} =  css=body > div:nth-child(5) > div > div.q-margin-base.q-headline > div > div > h1
 ${ENCLAVE_COOKIES_CLOSE_BUTTON} =  xpath=/html/body/div[31]/div[2]/div/div/div/div[3]
 ${ENCLAVE_VIDEO_IFRAME_DIV_CLASS} =  js-visibility none-margin
 ${ENCLAVE_VIDEO_COLORS_IFRAME} =  xpath=/html/body/div[11]/div/div/div/iframe

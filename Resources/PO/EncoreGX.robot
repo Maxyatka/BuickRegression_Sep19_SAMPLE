@@ -8,7 +8,7 @@ Library  SeleniumLibrary
 
 *** Variables ***
 ${ENCOREGX_HEADER_TEXT} =  2020 ENCORE GX
-${ENCOREGX_MAIN_HEADER} =  css=body > div:nth-child(4) > div > div.q-margin-base.q-headline > div > div > h1
+${ENCOREGX_MAIN_HEADER} =  css=body > div:nth-child(5) > div > div.q-margin-base.q-headline > div > div > h1
 ${ENCOREGX_COOKIES_CLOSE_BUTTON} =  xpath=/html/body/div[31]/div[2]/div/div/div/div[3]
 ${ENCOREGX_VIDEO_IFRAME_DIV_CLASS} =  js-visibility none-margin
 ${ENCOREGX_VIDEO_COLORS_IFRAME} =  xpath=/html/body/div[10]/div/div/div/iframe

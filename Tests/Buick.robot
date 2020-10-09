@@ -3,7 +3,8 @@ Documentation  This is a sample work project that test some functianality of Bui
 Resource  ../Resources/BuickApp.robot
 Resource  ../Resources/Common.robot
 
-Test Setup  Begin Web Test
+#Test Setup  Begin Local Web Test
+Test Setup  Begin Remote Web Test
 Test Teardown  End Web Test
 
 # robot -d Results Tests/Buick.robot            -- To run all Test Cases
@@ -12,8 +13,24 @@ Test Teardown  End Web Test
 
 
 *** Variables ***
+# For local testing
 ${BROWSER} =  chrome
 ${URL} =  https://www.buick.ca/en/
+
+# For remote testing with Sauce Labs
+# Replace with your remote URL for Sauce Labs
+${REMOTE_URL} =  <YOUR SAUCELABS REMOTE URL HERE>
+# Set up your desired capabilities
+${PLATOFRM_NAME} =  Windows 10
+${BROWSER_NAME} =  chrome
+${VERSION} =  latest
+
+@{_tmp}
+    ...  browserName: ${BROWSER_NAME},
+    ...  platform: ${PLATOFRM_NAME},
+    ...  version: ${VERSION},
+    ...  name: <TEST NAME HERE>
+${DESIRED_CAPABILITIES} =  ${EMPTY.join(${_tmp})}
 
 *** Test Cases ***
 # Set of Test Cases related to the change of color when switching between them
